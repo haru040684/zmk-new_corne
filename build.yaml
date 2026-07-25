@@ -2,10 +2,10 @@
 include:
   - board: nice_nano_v2
     shield: eyelash_corne_left nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_RUNTIME_SENSOR_ROTATE_STUDIO_RPC=n
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=n
   - board: nice_nano_v2
     shield: eyelash_corne_right nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=n
   - board: nice_nano_v2
     shield: settings_reset
   - board: seeeduino_xiao_ble
