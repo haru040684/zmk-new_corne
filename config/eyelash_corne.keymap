@@ -59,7 +59,7 @@ lower_layer {
     bindings = <
 &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp FSLH   &kp LSHFT                                      &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
 &kp MINUS  &kp N4  &kp N5  &kp N6  &kp ASTRK  &kp LGUI                       &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&kp N0     &kp N1  &kp N2  &kp N3  &kp DOT    &kp GRAVE  &kp C_MUTE                          &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&kp N0     &kp N1  &kp N2  &kp N3  &kp DOT    &kp GRAVE  &tog 0                              &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                    &trans     &trans     &trans                                                               &kp INS          &kp DEL          &trans
     >;
 
