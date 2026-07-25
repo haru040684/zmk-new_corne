@@ -18,7 +18,7 @@
         scroll: scroll {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&kp UP>, <&kp DOWN>;
         };
 
         rsr_trans: rsr_trans {
