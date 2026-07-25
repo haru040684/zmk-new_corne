@@ -84,7 +84,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: ., s: '>'}
   - {t: '`', s: '~'}
-  - $$mdi:volume-off$$
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
   - RGB SPI
