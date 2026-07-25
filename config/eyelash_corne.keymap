@@ -51,7 +51,7 @@
                          &kp LCTRL  &kp SPACE  &kp BSPC                                                &kp LALT  &kp ENTER  &mo 1
     >;
 
-        sensor-bindings = <&rsr_vol &rsr_trans>;
+        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
       };
 
 lower_layer {
@@ -63,7 +63,7 @@ lower_layer {
                                    &trans     &trans     &trans                                                               &kp INS          &kp DEL          &trans
     >;
 
-    sensor-bindings = <&rsr_vol &rsr_trans>;
+    sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 };
 
 
@@ -76,7 +76,7 @@ lower_layer {
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
@@ -88,7 +88,7 @@ lower_layer {
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
