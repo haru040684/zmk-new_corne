@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
   - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
   - NUMBER
   NUMBER:
   - {t: '=', s: +}
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
