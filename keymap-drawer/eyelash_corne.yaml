@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - Z
   - X
