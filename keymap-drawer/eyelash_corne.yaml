@@ -87,9 +87,9 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - RIGHT RGB BRD
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
